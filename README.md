@@ -16,6 +16,8 @@ This shell script can run different workloads with varing parameters, which need
 ## Cloud shell Terminal:
 Acts like a central monitor that controlls all the Distributed Database and YCSB Server.
 
+The main reason we use cloud shell script is that it can maintain a stable ssh connection to the ycsb and database severs that are deployed in cloud. Furthermore, users donot need to setup ssh keys.
+
 We have written three shell scripts for cloud shell terminal, one for Cassandra (cass-template.sh), one for MongoDB (mongo-cluster-template.sh), and one for MongoDB shards (mongo-shard-template.sh).
 #### Parameters
 ###### threadsList: A list of threads number that you want to benchmark onn
