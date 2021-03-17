@@ -1,9 +1,11 @@
 # YCSB_MongoDB_Cassandra
 This repository contains google cloud shell scripts that automate large scale benchmark for MongoDB and Cassandra.
 
-This shell script is general enough that after each rounnd of experiment, it shuts down the original database and clean up the data and log directtory, and then rrestart the experiment again.
+This shell script is general enough that after each rounnd of experiment, it shuts down the database and clean up the data and log directtory, and then restart the experiment again.
 
 This shell script can run different workloads with varing parameters, which needs to be specified by the users.
+
+More information for YCSB can be found in: https://github.com/brianfrankcooper/YCSB
 
 
 ## Assumption:
